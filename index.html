@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <div>
+        <h1>Lista de Compras</h1>
+        <input type="text" id="itemInput" placeholder="Adicionar um item...">
+        <button onclick="addItem()" id="adc">Adicionar</button>
+        <div id="errorFeedback" class="hidden"></div>
+    </div>
+
+    <div>
+        <h1>Lista de Produtos</h1>
+        <ul id="itemList"></ul>
+    </div>
+
+    <script type="module" src="src/js/app.js"></script>
+</body>
+</html>
