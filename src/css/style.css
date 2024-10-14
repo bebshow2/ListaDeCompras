@@ -83,7 +83,7 @@ li.visible {
 }
 
 li:hover {
-    background-color: #d1ecf1; /* Cor de fundo ao passar o mouse */
+    background-color: #d1ecf1;
 }
 
 #errorFeedback {
